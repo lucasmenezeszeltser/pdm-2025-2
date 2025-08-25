@@ -12,9 +12,9 @@ export const Profile = () =>{
       }}
     >
         <Text style={{fontWeight: "bold"}}>
-            Ewayrton Oliveira.
+            Lucas zeltser.
         </Text>
-        <Image source={require('@/app/images/foto perfil.jpg')}
+        <Image source={require('@/app/images/lucaslindo.jpg')}
              style={{width: 200, height: 200, borderRadius: 100}}      
         >
         </Image>
