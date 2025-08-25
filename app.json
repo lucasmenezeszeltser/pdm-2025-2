@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "PDM-2025-2",
+    "slug": "pdm-2025-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lucaszeltser.pdm20252"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.lucaszeltser.pdm20252"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "005d9328-9a52-49be-a4d5-d004c2f376d1"
+      }
+    },
+    "owner": "lucaszeltser",
+    "updates": {
+      "url": "https://u.expo.dev/005d9328-9a52-49be-a4d5-d004c2f376d1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
