@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "pdm-2025-2",
+    "slug": "pdm-2025-2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "helloworld",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ewayrton.pdm20252"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ewayrton.pdm20252"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45dc5555-ef42-47c4-a890-34fa729da37f"
+      }
+    },
+    "owner": "ewayrton",
+    "updates": {
+      "url": "https://u.expo.dev/45dc5555-ef42-47c4-a890-34fa729da37f"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
