@@ -14,7 +14,7 @@ export const Profile = () =>{
         <Text style={{fontWeight: "bold"}}>
             Lucas zeltser.
         </Text>
-        <Image source={require('@/app/images/lucaslindo.jpg')}
+        <Image source={require('@/assets/images/lucaslindo.jpg')}
              style={{width: 200, height: 200, borderRadius: 100}}      
         >
         </Image>
